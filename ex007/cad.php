@@ -20,8 +20,8 @@
     //$nome = $_GET["nome"] ?? " Sem nome informado";
     //$sobrenome = $_GET["sobrenome"] ?? " Sem sobrenome informado";
 
-    $nome = $_GET["nome"] ?? "Sem nome informado";
-    $sobrenome = $_GET["sobrenome"] ?? "Sem sobrenome informado";
+    $nome = $_GET["nome"];
+    $sobrenome = $_GET["sobrenome"];
 
     echo "<p>O nome completo e: $nome $sobrenome</p>";
     ?>
